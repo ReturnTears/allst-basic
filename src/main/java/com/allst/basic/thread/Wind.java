@@ -1,6 +1,8 @@
 package com.allst.basic.thread;
 
 /**
+ * 同步代码块解决线程安全问题
+ *
  * @author YiYa
  * @since 2020-03-21 下午 10:54
  */
