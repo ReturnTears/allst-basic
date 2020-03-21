@@ -47,8 +47,23 @@ JVM中只剩守护线程时，JVM将退出
 
 重点:
 线程的生命周期:
+Thread.state 有几种状态
+new: 新建
+start: 就绪
+runnable: 运行
+blocked: 阻塞
+waiting: 
+timed_waiting
+dead: 死亡
 
-
+线程的同步:
+同步代码块:
+    synchronized
+    共享数据
+    同步监视器: 简称'锁'，任一个类的对象都可以充当锁, 多个线程必须要公用一把锁
+    
+同步方法:
+    
 ```
 # JavaEE
 ```text
