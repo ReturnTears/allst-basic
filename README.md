@@ -24,13 +24,18 @@
 多线程的创建方式
 🍒 继承Thread类， 重写run方法，start方法启动线程
 🍒 实现Runnable接口, 重写run方法， 调用start方法启动线程
-🍒 
-🍒 
+🍒 实现Callable接口, Callable功能更强大些
+🍒 线程池
 比较线程创建方式:
 🚗 开发中优先选择实现runnable接口的方式
 🚗 实现的方式没有单继承的局限性
 🚗 实现的方式更适合处理多个线程有共享数据的情况
 🚗 两种方式都是需要重写run方法，将线程需要执行的逻辑申明在run方法中
+实现Callable接口比Runnable接口强大:
+Callable接口可以有返回值
+Callable可以抛出异常
+callable支持泛型
+
 
 线程的调度
 调度策略: 时间片、抢占式高优先级的线程抢占CPU
