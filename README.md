@@ -101,6 +101,25 @@ sleep和wait的区别:
 🍑 不同点: 两个方法声明的位置不同， Thread类中声明sleep方法， object类中声明了wait方法
           调用的要求不同， sleep可以在任何需要的场景下调用，wait必须使用在同步代码块中
           关于是否释放同步监视器:如果两个方法都使用在同步代码块或同步方法中，sleep不会释放锁，wait会释放锁
+          
+
+重点
+Java常用类
+
+🥝 字符串相关的类
+
+🥝 日期时间(JDK8前后API对比)
+
+🥝 Java比较器
+
+🥝 System类
+
+🥝 Math类
+
+🥝 BigInteger与BigDecimal
+
+
+
 ```
 # JavaEE
 ```text
