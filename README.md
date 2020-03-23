@@ -128,3 +128,8 @@ Java常用类
 # JavaME
 
 # remarks
+```text
+
+mstsc 近程桌面; 远程桌面; 远程桌面连接; 远程连接; 远端桌面;
+
+```
